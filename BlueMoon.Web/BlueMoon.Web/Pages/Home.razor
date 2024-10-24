@@ -1,0 +1,192 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<div class="column-layout home-container">
+    <div class="column-layout page-content">
+
+        <CarouselComponent />
+
+        <!-- #region name -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card-container">
+                        <div class="card-background">
+                            <div class="card-content">
+                                <h3 class="card-title">Texto de Ejemplo 1</h3>
+                                <a href="#" class="btn-animate">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-container">
+                        <div class="card-background">
+                            <div class="card-content">
+                                <h3 class="card-title">Texto de Ejemplo 2</h3>
+                                <a href="#" class="btn-animate">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-container">
+                        <div class="card-background">
+                            <div class="card-content">
+                                <h3 class="card-title">Texto de Ejemplo 3</h3>
+                                <a href="#" class="btn-animate">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card-container">
+                        <div class="card-background">
+                            <div class="card-content">
+                                <h3 class="card-title">Texto de Ejemplo 4</h3>
+                                <a href="#" class="btn-animate">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-container">
+                        <div class="card-background">
+                            <div class="card-content">
+                                <h3 class="card-title">Texto de Ejemplo 5</h3>
+                                <a href="#" class="btn-animate">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-container">
+                        <div class="card-background">
+                            <div class="card-content">
+                                <h3 class="card-title">Texto de Ejemplo 6</h3>
+                                <a href="#" class="btn-animate">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- endregion -->
+        <!-- #region Productos mas vendidos -->
+        <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Primera fila de productos -->
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="product-card">
+                                <img src="https://via.placeholder.com/150" class="product-image" alt="Producto 1">
+                                <div class="product-info">
+                                    <h5 class="product-name">Producto 1</h5>
+                                    <p class="product-description">Descripción corta del producto 1.</p>
+                                    <p class="product-price">$100.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="product-card">
+                                <img src="https://via.placeholder.com/150" class="product-image" alt="Producto 2">
+                                <div class="product-info">
+                                    <h5 class="product-name">Producto 2</h5>
+                                    <p class="product-description">Descripción corta del producto 2.</p>
+                                    <p class="product-price">$120.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="product-card">
+                                <img src="https://via.placeholder.com/150" class="product-image" alt="Producto 3">
+                                <div class="product-info">
+                                    <h5 class="product-name">Producto 3</h5>
+                                    <p class="product-description">Descripción corta del producto 3.</p>
+                                    <p class="product-price">$140.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="product-card">
+                                <img src="https://via.placeholder.com/150" class="product-image" alt="Producto 4">
+                                <div class="product-info">
+                                    <h5 class="product-name">Producto 4</h5>
+                                    <p class="product-description">Descripción corta del producto 4.</p>
+                                    <p class="product-price">$160.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Segunda fila de productos (otros productos) -->
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="product-card">
+                                <img src="https://via.placeholder.com/150" class="product-image" alt="Producto 5">
+                                <div class="product-info">
+                                    <h5 class="product-name">Producto 5</h5>
+                                    <p class="product-description">Descripción corta del producto 5.</p>
+                                    <p class="product-price">$180.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="product-card">
+                                <img src="https://via.placeholder.com/150" class="product-image" alt="Producto 6">
+                                <div class="product-info">
+                                    <h5 class="product-name">Producto 6</h5>
+                                    <p class="product-description">Descripción corta del producto 6.</p>
+                                    <p class="product-price">$200.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="product-card">
+                                <img src="https://via.placeholder.com/150" class="product-image" alt="Producto 7">
+                                <div class="product-info">
+                                    <h5 class="product-name">Producto 7</h5>
+                                    <p class="product-description">Descripción corta del producto 7.</p>
+                                    <p class="product-price">$220.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="product-card">
+                                <img src="https://via.placeholder.com/150" class="product-image" alt="Producto 8">
+                                <div class="product-info">
+                                    <h5 class="product-name">Producto 8</h5>
+                                    <p class="product-description">Descripción corta del producto 8.</p>
+                                    <p class="product-price">$240.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controles para deslizarse a izquierda y derecha -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+        <!-- #endregion -->
+
+    </div>
+</div>
